@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.1.1",
+  "description": "Partes lógicas.\r APP/\r controllers - recibe la petición y decide qué hacer y llama funciones de models\r models - trabaja con la información que le envia controllers (po ej. BD)\r views - presentacion de la información.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Victoria Dontsova",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomatcat/academia1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atomatcat/academia1/issues"
+  },
+  "homepage": "https://github.com/atomatcat/academia1#readme"
+}

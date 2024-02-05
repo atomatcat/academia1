@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, serif;
+  }
+.nav-link{
+    color: rgb(146, 146, 146);font-weight:bold;font-size:20px;
+}
+
+   .pt-1{
+    color: gray;font-size:35px;
+   }  
+   nav{
+    background-color: #E8E8E8;
+   } 
+     .nav-link, .nav-item{
+        color: rgb(87, 86, 86);
+        font-size:18px;
+     }  
+     
+     .cookie-message {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+/* Estilos para el mensaje de aceptación de cookies */
+.cookie-message {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Estilos para ocultar el contenido principal */
+    .main-content {
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+
+    /* para mostrar el contenido principal */
+    .cookies-accepted .main-content {
+      opacity: 1;
+    }
+    main{
+        min-height: 80%;
+        min-width: 80%;
+    }

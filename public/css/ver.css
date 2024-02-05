@@ -1,0 +1,44 @@
+.pt-1{
+    color: gray;
+    font-family: Georgia, serif;
+    font-size:25px;
+    }
+    
+    .navbar{
+    background-color: #E8E8E8;
+    }
+    
+    #btn{
+    border:0;
+    color: gray;
+    font-family: Georgia, serif;
+    font-size:25px;
+    }
+    
+    .table{
+    color: gray;
+    font-family: Georgia, serif;
+    font-size:20px;
+    }
+    
+    #resultado{
+    color: gray;
+    font-weight:bold;
+    font-family: Georgia, serif;
+    font-size:20px
+    }
+    
+    .container{
+    color: gray;
+    font-family: Georgia, serif;
+    font-size:15px;
+    margin-top:14px;
+    }
+    
+    .text-center{
+    background-color: #d6d5d5;
+    color: rgb(146, 146, 146);
+    font-family: Georgia, serif;
+    font-weight:lighter;
+    font-size:20px;
+    }
