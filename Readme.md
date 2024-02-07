@@ -145,7 +145,8 @@ Base de datos:
       ```html
       <form action="http://localhost:8080/App/app/index.php/account/login" method="post">
    3. ver.php :
-      
+      ```html
+      <form action="http://localhost:8080/App/app/index.php/account/login" method="post">
      ```html
      <form action="http://localhost:8080/App/app/index.php/profesor/moveFile" method="post">
 
