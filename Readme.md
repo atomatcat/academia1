@@ -134,7 +134,7 @@ Base de datos:
    `git clone https://github.com/`
 
  **Crea el esquema de la base de datos**
-[!IMPORTANT]
+
 **Cambio de puerto**
 
    El servidor está configurado para funcionar en el puerto 8080. Si se va a usar otro puerto hay que modificar siguientes vistas (las URL en el código): 
