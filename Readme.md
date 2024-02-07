@@ -146,7 +146,7 @@ Base de datos:
       <form action="http://localhost:8080/App/app/index.php/account/login" method="post">
    3. ver.php :
      ```html
-     <form action="http://localhost:8080/App/app/index.php/profesor/moveFile" method="post" enctype="multipart form-data">
+     <form action="http://localhost:8080/App/app/index.php/profesor/moveFile" method="post">
 
 **Uso de archivos JavaScript**
 
