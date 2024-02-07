@@ -1,4 +1,4 @@
-
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
 # Índice
 
 - [Índice](#índice)
@@ -56,7 +56,7 @@ Es el intermediario entre el modelo y la vista. Recibe las solicitudes del usuar
 
 ###### JavaScript 
 
-Maneja la interactividad del usuario, hace solicitudes al servidor, manipular el DOM y actualizar datos en tiempo real.
+Maneja la interactividad del usuario, hace solicitudes al servidor, manipula el DOM y actualiza datos en tiempo real.
 
 ###### rutas.php
 
@@ -76,19 +76,19 @@ Es responsable de generar el HTML que se enviará al navegador. Esta generación
 
 **La comunicación entre rutas.php, index.php, Router1, View:**
 
-1. Se realiza una solicitud a tu aplicación y index.php se ejecuta.
+1. Se realiza una solicitud a la aplicación y index.php se ejecuta.
 2. `index.php` inicia una nueva instancia de `Router1`.
 3. `Router1` examina la URL de la solicitud y busca una ruta que coincida en su tabla de rutas.
 4. Si se encuentra una ruta que coincida, `Router1` determina el controlador y el método correspondientes y crea una nueva instancia de ese controlador, sino muestra una página de error 404.
 5. `Router1` llama al método del controlador que corresponde a la acción de la ruta.
-6. El controlador interactúa con el modelo para obtener o manipular datos, se crea una nueva instancia de la clase    `View`, pasando la ruta y la vista como parámetros al constructor.
+6. El controlador interactúa con el modelo para obtener o manipular datos, se crea una nueva instancia de la clase `View`, pasando la ruta y la vista como parámetros al constructor.
 7. El controlador llama al método render de la clase `View`, pasando los datos obtenidos del modelo. El método render de la clase `View` genera HTML que se enviará al navegador.
 8. La vista pasa HTML al controlador.
 9. El controlador envía la respuesta al navegador.
 
 Base de datos:
-`bd/config_db.php` - contiene la configuración de la conexión a tu base de datos.
-`core/db.php(base)` - Esta clase garantiza que solo podemos crear un objeto de una clase (si el objeto no está creado, se crea uno; si ya está creado, se devuelve),  proporciona métodos para models
+`bd/config_db.php` - contiene la configuración de la conexión a la base de datos.
+`core/db.php(base)` - Esta clase garantiza que solo se va a crear un objeto de una clase (si el objeto no está creado, se crea uno; si ya está creado, se devuelve),  proporciona métodos para models.
 `models/Model.php(base)` - Clase abstracta que sirve como base para los modelos en la aplicación. Esta clase se encarga de la interacción con la base de datos utilizando la clase Db del espacio de nombres vendor\core. La clase Model tiene propiedades protegidas para almacenar la conexión a la base de datos ($pdo), el nombre de la tabla con la que se va a trabajar ($tabla) y el DNI de la persona ($dni).  En su constructor, se establece la conexión a la base de datos obteniendo una instancia de la clase Db. La clase Model proporciona varios métodos para interactuar con la base de datos,
 
 
@@ -121,10 +121,10 @@ Base de datos:
    `git clone https://github.com/`
 
  **Crea el esquema de la base de datos**
-
+[!IMPORTANT]
 **Cambio de puerto**
 
-   Mi servidor está configurado para funcionar en el puerto 8080. Si se va a usar otro puerto hay que modificar siguientes vistas (las URL en el código): 
+   El servidor está configurado para funcionar en el puerto 8080. Si se va a usar otro puerto hay que modificar siguientes vistas (las URL en el código): 
    1. login.php :
        ```html
        <link rel="stylesheet" src="http://localhost:8080/App/app/index.php/views/admin/agregar.css" type="text/css">
